@@ -8,6 +8,8 @@ const Prices = ({ bpi }) => {
     setCurrency(e.target.value)
   }
 
+
+
   let list
 
   if (currency === 'USD') {
